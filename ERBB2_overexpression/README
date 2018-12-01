@@ -1,0 +1,13 @@
+Our program takes one file from a sick patient's cell line.
+Then let's say we have a bunch of 101bps, we take the first 20bp then compare it with the whole data set,
+then we take the second 20bp and compare it with the whole data set and so forth. 
+Then it checks how many of these 20bp have repeated. 
+We used 20bp because we wanted to reduce the run time (ultimately we were unable to run the code because it 
+was predicted to take more than 2 hours of run time on our weak laptops). 
+If the 20bp repeats more than 50 times, we store it because we deem it as significant. 
+Then we take this list of stored 20bp and compare it to Her2 sequences. 
+And if it appears in Her2, we keep them, if not we discard it. 
+Then we take these repeats and compare it to other healthy and sick patients. 
+In the end, the program will acquire six numbers (from three healthy cell lines and three sick cell lines). 
+It will then divide them into two groups: healthy and diseased. 
+Then it will get the mean and standard deviation for both of the groups, and create a bar plot.
