@@ -1,0 +1,20 @@
+Inspiration
+2 of the hardest problems in pharmacology Sometimes drugs work, but we have no idea about its mechanism Sometimes a drug has great binding to the target, but it doesn’t work in a cell
+
+What it does
+Using data analytics on big omics datasets to figure out what genes are the likely causes of why a drug works (or not work)
+
+How we built it
+We combined several datasets (drug IC50 against hundreds of cell lines, transcriptomes of hundreds of cell lines, characteristics of hundreds of drugs) in R, and crunched the heck out of these numbers.
+
+Challenges we ran into
+Data wrangling is hard! We had to use excel a few times to get rid of formatting issues.
+
+Accomplishments that we're proud of
+We think we verified that the mechanism of action of several classes of drugs. We found insulin pathway to lead to resistance of PI3K/MTOR inhibitors. We identified PPL to be a better predictor of erlotinib (EGFR inhibitor) activity than expression of EGFR itself
+
+What we learned
+More R + More data = more insights
+
+What's next for DruGen
+More compute time to complete all calculations.
